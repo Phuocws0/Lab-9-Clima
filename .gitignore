@@ -1,0 +1,42 @@
+# JavaScript / React Native
+node_modules/
+*.log
+.npm/
+.yarn/
+
+# Android / Gradle
+.gradle/
+android/.gradle/
+android/app/build/
+android/build/
+build/
+local.properties
+*.jks
+*.keystore
+
+# Generated output
+dist/
+coverage/
+.expo/
+
+# Flutter source/build artifacts (reference only)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Demo videos stay local
+*.mp4
+
+# IDE / OS / temporary files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
